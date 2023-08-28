@@ -1,0 +1,22 @@
+.base{
+  text-align: center;
+}
+
+.tool-box{
+  margin-top: 16px;
+  border-radius: 8px;
+  border: 2px solid #765421;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  margin-left: 1%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
