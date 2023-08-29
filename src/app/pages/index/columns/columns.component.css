@@ -1,7 +1,8 @@
+
 .column {
   float: left;
   width: 40%;
-  margin-left: 5%;
+  margin-left: 55%;
 }
 
 /* Clear floats after the columns */
@@ -12,6 +13,11 @@
 }
 
 .fixed {
-  top: 0;
-  position: sticky;
+  top: 50%;
+  position: -webkit-sticky;
+  position: fixed;
+  margin: 0;
+  margin-left: 5%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }

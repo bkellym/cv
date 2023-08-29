@@ -1,0 +1,18 @@
+.header {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  border-radius: 8px;
+  border: 3px solid #765421;
+}
+
+.title{
+  font-size: 96px;
+  color:#765421;
+  margin: 64px;
+}
+
+.descricao{
+  font-size: 24px;
+  color: #FFF;
+  margin: 64px 0px 98px 64px;
+}

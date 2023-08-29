@@ -2,10 +2,11 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PillarComponent } from './pillar/pillar.component';
 import { ToolComponent } from './tool/tool.component';
+import { SociaisComponent } from './sociais/sociais.component';
 
 @NgModule({
-  declarations: [PillarComponent, ToolComponent],
-  exports: [CommonModule, PillarComponent, ToolComponent],
+  declarations: [PillarComponent, ToolComponent, SociaisComponent],
+  exports: [CommonModule, PillarComponent, ToolComponent, SociaisComponent],
   imports: [CommonModule],
 })
 export class SharedModule {}

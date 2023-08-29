@@ -5,9 +5,10 @@ import { ColumnsComponent } from './columns/columns.component';
 import { IntroComponent } from './intro/intro.component';
 import { PillarsComponent } from './pillars/pillars.component';
 import { ToolBoxComponent } from './tool-box/tool-box.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
-  declarations: [TitleComponent, ColumnsComponent, IntroComponent, PillarsComponent, ToolBoxComponent],
+  declarations: [TitleComponent, ColumnsComponent, IntroComponent, PillarsComponent, ToolBoxComponent, HeaderComponent],
   exports: [ColumnsComponent],
   imports: [SharedModule],
 })

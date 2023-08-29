@@ -1,0 +1,15 @@
+.base{
+  margin-left: 64px;
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon{
+  width: 40px;
+}
+
+.icon:hover{
+  cursor: pointer;
+  transform: scale(1.15);
+}
