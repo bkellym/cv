@@ -1,10 +1,3 @@
-
-.column {
-  float: left;
-  width: 40%;
-  margin-left: 55%;
-}
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -12,12 +5,32 @@
   clear: both;
 }
 
-.fixed {
-  top: 50%;
-  position: -webkit-sticky;
-  position: fixed;
-  margin: 0;
-  margin-left: 5%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+@media (max-width: 1024px) {
+  .fixed {
+    position: flex;
+  }
+
+  .column {
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .column {
+    float: left;
+    width: 40%;
+    margin-left: 55%;
+  }
+
+  .fixed {
+    top: 50%;
+    position: -webkit-sticky;
+    position: fixed;
+    margin: 0;
+    margin-left: 5%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
 }
