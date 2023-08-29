@@ -1,0 +1,13 @@
+.base{
+  text-align: right;
+  width: 94%;
+  margin-left: 3%;
+  border-bottom: 3px solid #67fb54;
+  color: #67fb54;
+  font-size: 32px;
+  padding: 0;
+}
+
+.base h3{
+  margin: 98px 0px  4px 0px;
+}
