@@ -1,0 +1,10 @@
+.base{
+  margin: 32px 16px;
+}
+
+.item{
+  font-weight: 800;
+  color: #765421;
+  font-size: 24px;
+  font-family: 'Rubik', sans-serif;
+}
