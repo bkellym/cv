@@ -5,3 +5,13 @@ body {
   background-color: #343434;
   font-family: 'Rubik', sans-serif;
 }
+
+.radial-gradient {
+  /*Fallback if gradeints don't work */
+  background: #072F34;
+  /*Linear gradient... */
+  background:
+    radial-gradient(
+     at center, #789299, #072F34
+    );
+}

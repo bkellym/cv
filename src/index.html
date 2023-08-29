@@ -10,7 +10,21 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Rubik:wght@300&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="radial-gradient">
   <app-root></app-root>
+
+  <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+
+  <script>
+    $(document).mousemove(function(event) {
+      windowWidth = $(window).width();
+      windowHeight = $(window).height();
+
+      mouseXpercentage = Math.round(event.pageX / windowWidth * 100);
+      mouseYpercentage = Math.round(event.pageY / windowHeight * 100);
+
+      $('.radial-gradient').css('background', 'radial-gradient(at ' + mouseXpercentage + '% ' + mouseYpercentage + '%, #546A70, #072F34)');
+    });
+  </script>
 </body>
 </html>

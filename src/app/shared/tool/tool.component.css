@@ -2,11 +2,13 @@
   content: "";
   display: table;
   clear: both;
-  background-color: #636363;
+  background-color: #5A7278;
+  background: radial-gradient(ellipse at top, #78929936, transparent),
+            radial-gradient(ellipse at bottom, #072F34, transparent);
   position: relative;
   width: 90%;
   margin: 16px;
-  border: 2px solid #765421;
+  border: 2px solid #00ECFF;
   border-radius: 6px;
 
 }
