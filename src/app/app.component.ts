@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Inject } from "@angular/core";
+import { APP_BASE_HREF } from "@angular/common";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portifolio';
+
+  constructor(@Inject(APP_BASE_HREF) public  baseHref: string) {
+    console.log(`APP_BASE_HREF is ${this.baseHref}`);
+  }
 }
